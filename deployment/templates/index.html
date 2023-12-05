@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Your Model App</title>
+</head>
+<body>
+    <div class="background-image">
+        <div class="overlay">
+            <header>
+                <h1>AI-Patterned Couture</h1>
+            </header>
+            <div class="container">
+                <div class="content-wrapper">
+                    <div class="left-content">
+                        <h2>Steps to use the website</h2>
+                        <p>Follow these steps to generate unique images:</p>
+                        <ol>
+                            <li>Click "Upload Image" and select a picture from your computer.</li>
+                            <li>In the "Prompts" field, enter descriptive keywords (comma-separated).</li>
+                            <li>In the "Patterns" field, enter pattern keywords (comma-separated).</li>
+                            <li>Click "Run Model" to generate an image based on your inputs.</li>
+                            <li>The result will be displayed on the right side.</li>
+                            <li>Download the result and explore different inputs!</li>
+                        </ol>
+
+                        <form action="{{ url_for('result') }}" method="post" enctype="multipart/form-data">
+                            <label for="image">Upload Image:</label>
+                            <input type="file" name="image" accept="image/*" required>
+
+                            <label for="prompts">Prompts (comma-separated):</label>
+                            <input type="text" name="prompts" required>
+
+                            <label for="patterns">Patterns (comma-separated):</label>
+                            <input type="text" name="patterns" required>
+
+                            <button type="submit">Run Model</button>
+                        </form>
+                    </div>
+
+                    <div class="right-content">
+                        <h2>Result Image</h2>
+                        <div class="result-image-placeholder">
+                            <!-- Placeholder for result image -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>&copy; 2023 AI-Patterned Couture. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
