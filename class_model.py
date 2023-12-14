@@ -89,5 +89,5 @@ class ModelClassDep:
 
 
 if __name__ == '__main__':
-    x = ModelClassDep(r"C:\Users\razor\Downloads\Kevin_De_Bruyne.jpg",['red boots','red shorts','red shirt', 'tattoo on arm'],["black lines","red blue green","flowers","japanese kimono"])
+    x = ModelClassDep(r"image_path.ext",['red boots','red shorts','red shirt', 'tattoo on arm'],["black lines","red blue green","flowers","japanese kimono"])
     x.model_execution()
