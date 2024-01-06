@@ -52,6 +52,8 @@ The objective of the "AI-Patterned Couture" project is to develop a user-centric
 
 ## Methodology
 
+![alt text](https://github.com/aamash1wnl/GenAI_Coutour_MP/blob/main/images/methodology.jpg)
+
 The methodology employed in the 'AI-Patterned Couture' project represents a systematic and innovative approach towards revolutionizing personalized garment design within the fashion industry. The detailed steps include:
 
 1. **Input of Image:** Users upload clothing images into the system.
@@ -76,7 +78,16 @@ The project encountered challenges related to dependency management, local deplo
 
 ## Test Examples
 
-Two test cases demonstrate the flexibility of the model in creating unique designs on various articles of clothing, showcasing the capabilities of the system.
+The below test case demonstrate the flexibility of the model in creating unique designs on various articles of clothing, showcasing the capabilities of the system.
+
+Interface
+![alt text](https://github.com/aamash1wnl/GenAI_Coutour_MP/blob/main/images/test_example_1.jpg)
+
+Test-input image
+![alt text](https://github.com/aamash1wnl/GenAI_Coutour_MP/blob/main/images/test_input_1.jpg)
+
+Test-output image
+![alt text](https://github.com/aamash1wnl/GenAI_Coutour_MP/blob/main/images/test_output_1.jpg)
 
 ## Conclusion
 
