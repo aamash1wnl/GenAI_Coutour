@@ -88,9 +88,9 @@ The below test case demonstrate the flexibility of the model in creating unique 
 
 ![alt text](https://github.com/aamash1wnl/GenAI_Coutour_MP/blob/main/images/test_input_1.jpg)
 
-3. **Segmentation prompt**: "White t-shirt"
+3. **Segmentation prompt:** "White t-shirt"
 
-4. **Pattern prompt**: "Japanese Kimono"
+4. **Pattern prompt:** "Japanese Kimono"
 
 5. **Test-output image**
 
