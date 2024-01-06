@@ -81,12 +81,19 @@ The project encountered challenges related to dependency management, local deplo
 The below test case demonstrate the flexibility of the model in creating unique designs on various articles of clothing, showcasing the capabilities of the system.
 
 Interface
+
 ![alt text](https://github.com/aamash1wnl/GenAI_Coutour_MP/blob/main/images/test_example_1.jpg)
 
 Test-input image
+
 ![alt text](https://github.com/aamash1wnl/GenAI_Coutour_MP/blob/main/images/test_input_1.jpg)
 
+Segmentation prompt: "White t-shirt"
+
+Pattern prompt: "Japanese Kimono"
+
 Test-output image
+
 ![alt text](https://github.com/aamash1wnl/GenAI_Coutour_MP/blob/main/images/test_output_1.jpg)
 
 ## Conclusion
